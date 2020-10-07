@@ -9,6 +9,21 @@
 // 👇 هنا function عرف الدالة او
 
 
+    let age = 16;
+
+    if (age >18){
+        console.log(`🚘😍 مبروك سوف تحصل على الليسن`)
+    }
+
+    else if (age <18){
+        console.log(`  😢 للاسف عمرك لا يسمح`)
+
+    }
+    function driving(x){
+        console.log(x)
+    }
+    driving(age);
+
 
 // لا تنسى أن تنادي الدالة
 
@@ -22,8 +37,11 @@
 
 // 👇 هنا array عرف المصفوفة او
 
+let iceCream =[`Chocolate`,`Blueberry`,`vanilla`,`cotton candy`,`White chocolate`,`Daek chocolate`];
 
-
+for (const xx of iceCream){
+  console.log(xx)
+}
 
 
 // --------------------------------- ✨ بونص ------------------------------------
